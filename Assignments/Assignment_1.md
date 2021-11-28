@@ -40,4 +40,4 @@ Benefits of GEAF are:
 - Helps to understand your current business.
 - Identify opportunities for change.
 - Model your business goals and the capabilities and investments you need to deliver them.
-- Design a future operating model that is technically and strategically aligned with .all-of-government programs and services.
+- Design a future operating model that is technically and strategically aligned with all-of-government programs and services.

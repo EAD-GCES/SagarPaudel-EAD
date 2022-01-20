@@ -40,11 +40,15 @@ class ObjectFactory {
 
 public class FactoryPatternDemo{
     public static void main(String args[]){
-        ObjectFactory objfactory = new ObjectFactory();
-        try{
-            Shape s=objfactory.getShape("");
-        }
-        
-        s.draw();
+        ObjectFactory objectFactory = new ObjectFactory();
+
+        Shape shapeRectangle = objectFactory.getShape("rectangle");
+        Shape shapeSquare =  objectFactory.getShape("square");
+        Shape shapeCircle =  objectFactory.getShape("circle");
+
+        shapeRectangle.draw();
+        shapeSquare.draw();
+        shapeCircle.draw();
+    
     }
 }
